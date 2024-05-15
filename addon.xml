@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.randomvideo" name="Play random video" version="0.0.1" provider-name="Chris Bevan">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="script.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Play random video</summary>
+		<description lang="en_GB">Makes a randomised playlist from a user specified directory</description>
+		<language></language>
+		<platform>all</platform>
+	</extension>
+</addon>
